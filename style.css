@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.searchBar{
+    background-color: #373737;
+    /* height: 35vh; */
+}
+.srchBar{
+    width: 100%;
+    background-color: black;
+    border-radius: 10px 25px 25px 10px;
+    height: 40px;
+    border: 2px solid white;
+    color: white;
+}
+.srchBar::placeholder{
+    color: rgb(126, 126, 126);
+}
+.H-Btn{
+    margin: 13px;
+}
+.navLinks{
+    background-color: #494949;
+    border-radius: 0px 0px 20px 20px;
+}
+.navLinkTab{
+    border-right: 0.5px solid white;
+}
+.imgPos{
+    width: 30%;
+    height: 36%;
+    margin: 40px 35%;
+}
+.animeTitle{
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+.animeTitle:hover{
+    font-weight: 500;
+    font-size: 15px;
+    color: #686868;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+.card-body{
+    padding: 0.25rem;
+}
+.card{
+    background-color: black;
+}
+.pageBox{
+    /* border: 2px solid white; */
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin: 17px 3px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.pageArea{
+    background-color: #494949;
+    height: 70px;
+    border-radius: 0px 0px 20px 20px;
+}
+.footerSec{
+    background-color: #1f1f1f;
+    text-align: center;
+    margin-top: 30px;
+    padding: 13px;
+}
+.footerSec a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.footerSec a:hover {
+    color: #464646;
+    text-decoration: none;
+}
+span{
+    color: #ffffff;
+}
